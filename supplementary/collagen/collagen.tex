@@ -5,6 +5,7 @@
  
 \documentclass[titlepage]{article}  % Latex2e
 \usepackage{graphicx,lscape,subfigure}
+\usepackage{tikz}
 \usepackage{bm,longtable}
 \usepackage{textcomp}
  
@@ -268,9 +269,12 @@ The correlations all have the expected sign, but they are not large. For example
 \end{itemize}
 
 \subsection{Collagen development and pre-papilla cell development}
-Negative correlations , if we ignore the trivial case where one variable is measured on an inverse scale, may arise when two variables share some resource, so that an increase in one variable leads to a reduced amount of resource available for the other. This is commonly referred to a {\em tradeoff}.
+Negative correlations , if we ignore the trivial case where one variable is measured on an inverse scale, may arise when two variables share some scarce resource, so that an increase in one variable leads to a reduced amount of resource available for the other. This is commonly referred to as a {\em tradeoff}.
 
-We envisage
+We envisage that fibroblast differentiation and pre-papilla cell differentiation are in a tradeoff relationship, with respect to some resource required for differentiation, probably the supply of undifferentiated mesenchymal stem cells. This is illustrated in Figure~\ref{fig:tradeoff}
+\input{figtradeoff.tex}
+
+If there is lots of variation between sheep in the {\em tradeoff genes} and not much genetic variation in the resource genes, then the shared resurce will be limiting, and the numbers of differentiationg pre-papilla cells and fibroblasts will be negatively related, and this will result in a negtivae correlation between numbers of initiating follicles and amount of dermal collagen. This would seem to be the case in the present data. If there is lots of genetic variation in the resource genes, so that the quantity of resource itself varies, then the above correlation may be positive, reflecting a situation where 'more of everytjhing' is possible. 
 
 \subsection{pre-papilla cell number and follicle number and fibre diameter}
 \subsection{Collagen and follicle curvature, follicle unevenness, and SD of fibre diameter}
