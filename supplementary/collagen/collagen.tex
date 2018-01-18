@@ -186,6 +186,7 @@ The correlations between SkinSoft score and the 3 collagen measurements are give
 The correlation of SkinSoft score with CSTmean is slightly higher than that with CMP. Dividing by TST may be introducing errors. There is only a small correlation with TST, and that is expected. Bending softness is more a matter of softness of the material than of minor variations in material thickness. Compare sheet aluminium with sheet steel, minor thickness variations will not make sheet steel bend like aluminium.
 
 \subsection{Collagen and follicle characteristics}
+\subsubsection{S/P ratio}
  Figure~\ref{fig:sptst} shows the correlation beetween S/P ratio and TST measurements across all Flocks.
 \input{figsptst.tex}
 The correlation of 0.11 is not significant.
@@ -207,6 +208,7 @@ The main point is that there is a significant negative relationship of CSTmean w
 \input{figspcmp.tex}
 For compressibility versus S/P ratio there are two outlier points, and the correlation (0.36) is similar to that for CSTmean, but of course is now positive - soft compressible skins have a high S/P ratio. Again the remarks about Flocks grouping along the relationship line apply. We do not bother to look at a graph showing SkinType instead of Flock for each point, because the same should apply as for CSTmean, above.
 
+\subsubsection{Follicle number per unit area}
 We have chosen to look at S/P ratio rather than follicle number per unit area. There are two reasons
 \begin{itemize}
 \item it is the secondary follicle number which the collagen-link hypothesis predicts would be affected by excess collagen formation. Follicle number per unit area would of course reflect this, but it is a more indirect consequence
@@ -221,6 +223,7 @@ This proves that we can put follicle number aside and just concentrate on the re
 
 
 \subsection{Collagen and Fibre growth}
+\subsubsection{Mean secondary fibre diameter}
 The collagen-link hypothesis postulates that sheep with high and/or hard collagen skins will have higher average diameter of secondary fibres, more curved fibres, and a lower fibre length growth rate. It  also suggests that sheep with high and/or hard collagen skins will have a high follicle unevenness score , which we know to be associated with high variability of fibre diameter. The effect on mean secondary fibre diameter is not direct, it is secondary to the effect on S/P ratio, it being known that highly branched follicles grow finer fibres.
 
 Figure~\ref{fig:tstds} shows the correlation of TST measurement with meandiameter of secondary fibres.
@@ -235,23 +238,51 @@ Figure~\ref{fig:cmpds} shows the correlation of CMP measurement with mean diamet
 \input{figcmpds.tex}
 This correlation is -0.40 and is significant $(P<0.01)$. Again Flock 4 seems to have a higher mean S diameter than the other flocks, and appears above the other points on the graph. There are two outlier points.
 
+\subsubsection{Standard deviation of secondary fibre diameter}
 Figure~\ref{fig:tstdssd} shows the correlation of TST measurement with standard deviation of diameter of secondary fibres.
 \input{figtstdssd.tex}
 The correlation is close to zero and not significant.
 
 Figure~\ref{fig:cstdssd} shows the correlation of CSTmean measurement with standard deviation of diameter of secondary fibres.
 \input{figcstdssd.tex}
-The correlation is 0.39 and is significant $(P<0.01)$. In this case there little suggestion of Flock 4 being higher in DsSD than expected from CSTmean. So in this case other factors are not operating. It is likely that the effect of collagen on DsSD is not via mean Ds, but is a conseuence of the {\em wrinkle - hard collagen - curved follicles - curved fibres link}. It is known that skins with high follicle curvature score also have high follicle unevenness score (genetic correlation is $0.82\pm0.02$ Jackson(2017)~\cite{jack:17a}), and therefore grow fibres of less uniform diameter.
+The correlation is 0.39 and is significant $(P<0.01)$. In this case there is again suggestion of Flock 4 being higher in DsSD than expected from CSTmean. So in this case other factors are also operating. The effect of collagen on DsSD may be via mean Ds, or may be via the {\em  hard collagen - curved follicles - curved fibres link}. It is known that skins with high follicle curvature score also have high follicle unevenness score (genetic correlation is $0.82\pm0.02$ Jackson(2017)~\cite{jack:17a}), and therefore grow fibres of less uniform diameter.
 
 Figure~\ref{fig:cmpdssd} shows the correlation of CMP measurement with standard deviation of diameter of secondary fibres.
 \input{figcmpdssd.tex}
-The correlation is -0.43 and is significant $(P<0.01)$.  Again Flock 4 does not stand out, so the remarks above apply. Hard collagen makes curved follicles, which are uneven in their anatomy and in their fibre growth. 
+The correlation is -0.43 and is significant $(P<0.01)$.  Again Flock 4 stands out, so the remarks above apply. Hard collagen makes curved follicles, which are uneven in their anatomy and in their fibre growth. 
 
-What should be looked at here is the relations of collagen measurements to follicle curvature and follicle unevenness scores. We do not have the data. 
+\subsubsection{Follicle and fibre curvature}
+It is known that follicle curvature and intrinsic fibre curvature are very closely related, and probably are exactly the same thing. The following results for follivcle curvarure should also therefore apply to fibre curvature.
 
+Correlation of TST with Follicle curvature was low ( 0.118 and not significant). The graph is not reported here.
+
+Figure~\ref{fig:CSTFc} shows the correlation of CSTmean measurement with follicle curvature. 
+\input{figCSTFc.tex}
+The correlation is  0.719 and is significant $(P<0.01)$. Note the triangular shape of the scatter of points; it implies that a low CST can be any follicle curvature score from 1 to 7, while a high CST can only be follicle curvature score 6 or 7. So alot of hard collagen constrains the follicles to being curved, but the follicles are free to do anything if the collagen is little or soft. That implies that there might be two factors affecting curvture - a 'natural' curvature of the follicles, and and overriding constraint added by the collagen. 
+
+The correlation of CMP with follicle curvature is shown in in Figure~\ref{fig:CMPFc}
+\input{figCMPFc.tex}
+This correlation is -0.69 and is significant $(P<0.01)$. The correlation is similat to that between follicle curvature and CSTmean, but with opposite sign, and the triangular scatter of points is still present. 
+
+We need to try and get some insight into what sort of sheep are falling into the top corner of the triange in Figures ~\ref{fig:CSTFc} and ~\ref{fig:CMPFc}. They do not belong to any particular flock, and on redrawing the above fgraphs showing SkinType of each point , we saw that they do not belong to any particular SkinType. The only association we could find is a suggestion that points toward the corner of the triangle have a low standard deviation of secondary fibre diameter. This is shown in Figure~\ref{fig:CSTFcbyDsSD}
+\input{figCSTFcbyDsSD.tex}
+This is not entirely convincing. It needs further investigation, probably with a wider range of data.
+
+\subsubsection{Follicle unevenness}
+It is known that Follcle unevenness score and standard deviation of fibre diameter are correlated. The follicle results should therefore be similar to those for DsSD above.
+
+Correlation of TST with Follicle unevenness was low ( 0.162 and not significant). The graph is not reported here.
+
+Figure~\ref{fig:CSTFu} shows the correlation of CSTmean measurement with follicle unevenness score.
+\input{figCSTFu.tex}
+This correlation is 0.72 and is significant $(P<0.01)$. Again we see thhe triangular scatter of points. A high CST means highly uneven follicles, but a low CST can be anything.
+
+\subsubsection{Follicle depth}
+
+\begin{verbatim}
 [Jim, I went looking for follicle curvature and length growth rate data - there is lots in the staple structure file, but on these sheep we have CrimpType but no SkinType. I am sure you have this info. We could use it here. It would at least confirm the collagen-curved follicles - curved fibres link. ]
+\end{verbatim}
 
-[ An alternative would be to get follicle curvature and unevenness ( and probably depth) on the current data, where we have the actual collagen measurements. Is that possible?]
 
 We will summarize what we have on collagen and fibre properties as a table of correlations (Table~\ref{tab:collfibcor}).
 \input{tabcollfibcor.tex}
