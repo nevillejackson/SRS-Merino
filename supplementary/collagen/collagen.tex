@@ -296,9 +296,40 @@ We do not have fibre length growth rate data in this dataset.  The best we can d
 
 \subsubsection{Summary of collagen measures and fibre properties}
 
+
 We will summarize what we have on collagen and fibre properties as a table of correlations (Table~\ref{tab:collfibcor}).
 \input{tabcollfibcor.tex}
 The SkinSoft score shows basically the same correlations as CMP, and the same with opposite sign as CSTmean. CSTmean and CMP have similar correlations with fibre properties.
+
+\subsection{Will variations in amount of follicle tissue affect CST measurement?}
+The skin specimen which is being compressed in CST measurement contains tissues other than collagen. So it is possible that variations in these other tissues affect compressed thickness. In particular, follicle tissue is likely to be much less compressible than collagen. To investigate this we need a measure of the amount of follicle tissue per unit area or per unit volume of skin. 
+
+We start by noting that the diameter of a follicle stem at sebacious gland level is close to 3 times the diameter of the fibre it contains. So the area of follicle tissue per $mm^{2}$ at that level is
+\begin{displaymath}
+F_{a} = 10^{-6} F_{n} pi \frac{3D}{2}^{2}
+\end{displaymath}
+$F_{a}$ will vary between 0 and 1 and will represent the follicle tissue area in $mm^{2}$ per $mm^{2}$, so it is unitless. 
+
+We next note that the average length of follicles is represented by follicle depth (Fd) in $mm$.  So the volume of follicle tissue per $mm^{2}$  of cross section is 
+\begin{displaymath}
+F_{v} = F_{a} Fd
+\end{displaymath}
+$F_{v}$ will be $mm^{3}$ of follicle tissue per $mm^{2}$ of cross section, so it will be in $mm$. 
+
+Now we want to see whether either $F_{a}$ or $F_{v}$ varies with CST. So we do a regression of CST on Age and either $F_{a}$ or $F_{v}$ . Neither of these regressions were significant. This is shown in the analyses of variance given in Tables~\ref{tab:cstfa} and ~\ref{tab:cstfv}
+\input{tabcstfa.tex}
+\input{tabcstfv.tex}
+The Age effect is not significant. In Table~\ref{tab:cstfa}, Fdmean was included in the regression, and it was significant but only at the $P<.05$ level. We looked at the plot of CSTmean against Fdmean; it is a low correlation ( 0.23 ). 
+o we re-did the regression just regressing CST on Fd. The result is shown in Table~\ref{tab:cstfd}
+\input{tabcstfd.tex}
+The follicle depth regression is now almost significant at $P<0.01$
+We proceed to see if adjusting CSTmean for Fd does anything to the relationship of CST with Fc. Figure~\ref{fig:CSTcFdxFc} shows the relationship of follicle depth corrected CST to follcile curvature.
+\input{figCSTcFdxFc.tex}
+The correlation is 0.71. If we compare to CSTmean not corrected for Fd, its correlation with Fc was 0.72. Therefore the correction of CST for Fd did nothing to help with relating CST to Fc. The point scatter is still triangular. We can not explain that phenomenon by correcting CST.
+
+
+The conclusion is clear. We cannot find any basis for adjustng CST measurements for amount of follicle tissue.
+
 
 \clearpage
 \section{Discussion}
