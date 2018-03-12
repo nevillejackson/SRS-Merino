@@ -8,6 +8,8 @@ The _collagen_ subdirectory contains a study of the role of soft and hard collag
 ## Review of wrinkle genetics ##
 The _wrinkle_ subdirectory contains a pointer to a review of genetics of skin wrinkle. This material is actually located in the _Fleece-genetics_ repository.
 
+## Skinspace study ##
+The _skinspace_ subdirectory contains a pointer to a study which explores the idea that secondary follicle development at 100 days is responsible for the excessive expansion of the area of the dermal layer of skin tissue which is one of the prerequisites for wrinkle or fold development.
 
 ## Reference ##
 A description of the SRS Merino breed can be found at the website.
