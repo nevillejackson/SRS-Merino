@@ -1,0 +1,176 @@
+%
+% Draft  document depthandcurv.tex
+% Looks at depth, straight length, and curved length of follicles
+%
+ 
+\documentclass[titlepage]{article}  % Latex2e
+\usepackage{graphicx,lscape,subfigure}
+\usepackage{tikz}
+\usepackage{bm,longtable}
+\usepackage{textcomp}
+ 
+
+\title{Follicle depth, straight length, and curved length in plain and wrinkly sheep}
+\author{Jim Watts and Neville Jackson}
+\date{27 Aug 2018} 
+
+ 
+\begin{document} 
+
+
+ 
+\maketitle      
+\tableofcontents
+
+$\newcommand{\E}{\mathrm{E}}$
+$\newcommand{\Var}{\mathrm{Var}}$
+$\newcommand{\Cov}{\mathrm{Cov}}$ 
+$\newcommand{\SD}{\mathrm{SD}}$ 
+
+\clearpage
+\section{Introduction} 
+
+\section{Materials and Methods}
+\subsection{Sheep studied}
+This is a small study of 36 sheep from two Flocks, 18 from each Flock. Wthin each Flock there were 9 sheep chosen to represent the "loose" Skintype, and 9 sheep chosen to represent the "wrinkly" Skintype. 
+
+On each sheep 25 follicles chosen at random were measured on a vertical skin section taken fron a skin biopsy sample obtained by the technique of Maddocks and Jackson (1988)~\cite{madd:88}. The measurements were of follicle depth, $t$, and $h$, as defined below.
+
+\subsection{Measurements}
+The following measurements and scores were available
+\begin{description}
+\item[SkinType] visual scores for sheep skin type. Two grades "loose" and "wrinkly". 
+\item[Follicle depth] perpendicular distance from skin surface to bottom of follicle bulb
+\item[Follicle straight length(t)] distance from skin surface to bottom of follicle bulb, measured at the angle of the follicle to the surface.
+\item[Follicle sagitta(h)] If the straight follicle length is considered to be the chord of a circle, the sagitta is the height of the arc above the centre of the chord.
+\end{description}
+
+From these measurements it was possible to calculate
+\begin{description}
+\item[Radius of curvature of follicle]  given by $R = h/2 + t^{2}/(8h)$
+\item[Angle subtended by the arc] given by $\theta = 2 asin(2/(2R))$
+\item[Follicle curved length] given by $S = R \theta$
+\end{description}
+
+The measurement of fibre curvature used by the wool industry is the reciprocal of radius of curvature and is in degrees per mm. The reciprocal of our $R$ would be in radians per mm.
+
+\subsection{Statistical analysis}
+
+Data were imported into the R statistical program~\cite{rprog:13} and analysed using the {\em aov()} function for analysis of variance.
+
+\section{Results}
+\subsection{Means}
+Means for each Skintype within each Flock are given in Table~\ref{tab:means}
+\input{tabmeans.tex}
+All four traits ( Follicle depth, straight follicle lenfgth, curved follicle length, and radius of curvature) would appear to differ substantially between loose and wrinkly Skintypes, but the two Flocks would seem to be similar.
+
+We do not present standard deviations or standard errors here.  The experimental design has multiple error levels. There are two random effects, Sheep, and Follicles within Sheep. Each of these contributes to the standard error of a mean. We need to estimate variance components for Sheep and Follicles to do the standard errors properly. 
+
+However we can test the significance of the Skintype difference and the Flock difference with an appropriate analysis of variance. We show these analyses of variance in Table~\ref{tab:aov}
+\input{tabaov.tex}
+The first thing to note is that there are multiple error levels - corresponding to variation between sheep and variation between follicles within a sheep. The appropriate error level for testing Flock and Skintype differences is Error:Sheep - the line labelled Residuals. We can see that the analyses have used this error level for the F tests. These show that the Skintype difference was significant for all four traits, althought the probability level for Follicle straight length was only .027 ( ie between 1 percent and five percent significance). None of the four traits showed a significant Flock difference. 
+
+This result is , of course, what we expected to find.  Based on our understanding of the histology of wrinkle formation, we expect that wrinkled sheep will have a layer of hard collagen in the dermis which interferes with the downward growth of follicles from the dermis ( ie reduces their length) and which also causes the downgrowing follicles to curve sideways in an attempt to complete their length growth ( ie increases Radius of curvature).  So these results support our hypothesis regarding the role of collagen in wrinkle formation and its effect on developing follicles.
+
+\subsection{Variance components}
+With two Error levels ( Sheep and Follicles within sheep) we need to estimate variance components for each level, in order to calculate the standard error of a mean.  In Table~\ref{tab:aov} the mean square for Residual1 is the Follicles withn sheep variance component$(\sigma^{2}_{F})$. To get the Sheep variance component $\sigma^{2}_{S}$ we calculate
+\begin{displaymath}
+\sigma^{2}_{S} = (MS(sheep) - MS(follicles within sheep)) / N_{F}
+\end{displaymath}
+where $N_{F}$ is the number of follicles per sheep.
+
+We can then calculate the variance of a mean as
+\begin{displaymath}
+Var(mean) = \sigma^{2}_{S}/N_{S} + \sigma^{2}_{F}/(N_{S} N_{F})
+\end{displaymath}
+where $N_{S}$ is number of sheep in the mean and $N_{F}$ is number of follicles per sheep.
+This gives the variance of a mean. To get a standard error we take its square root.
+
+Table~\ref{tab:se} gives the variance component estimates calculated as above  for each of the four traits, plus a standard error calculated for a mean of 9 sheep with 25 follicles per sheep.
+\input{tabse.tex}
+These are the standard errors which apply to the means given in Table~\ref{tab:means} The significance tests in Table~\ref{tab:aov} indicate a higher level of significance because they are for the Skintype difference averaged across both Flocks - ie they correspond to means of 18 Sheep rather than 9. We have not presented the means for Skintype differences averaged across both Flocks, so we present these and their standard errors in Table~\ref{tab:skintype}
+\input{tabskintype.tex}
+We see that these means are indeed significantly different, as indicated in the analyses of variance in Table~\ref{tab:aov}.
+
+\subsection{Correlations}
+Figure~\ref{fig:curvlenxfd} shows a scatterplot of curved length of follicles against follicle depth.
+\input{figcurvlenxfd.tex}
+ It suggests that follicle depth is a rather poor indicator of the curved length of a follicle. The points seem to cluster at or below the 1 to 1 line, indicating that curved length is either equal to or longer than follicle depth, depending on how much the follicle is curved. In this situation a correlation is not a good descriptor. 
+
+Figure~\ref{fig:curvlenxt} shows a similar scatterplot of curved length against straight length of follicles.
+\input{figcurvlenxt.tex}
+ We see a similar picture to Figure~\ref{fig:curvlenxfd} but with much closer agreement. The points again cluster at or below the 1 to 1 line. Curved length is either equal to straight length or slightly longer. Straight length is a better indicator of curved length than is follicle depth, but it misses out if the follicles are curved.
+
+Figure~\ref{fig:radcurvxcurvlen} shows a scatterplot of curved length against radius of curvature.
+\input{figradcurvxcurvlen.tex}
+Here we see something radically diffferent. Why the stepped spacing of points, especially those from the loose Skintype with high radius of curvature. Well, the issue is that measuring the follicle sagitta (h) gets to be rather imprecise when the follicle is not curved. Values of 1, 2, 3 for the sagitta produce the grouping effect when converted to radius of curvature.
+
+What Figure~\ref{fig:radcurvxcurvlen} shows is that wrinkly sheep have curved follicles that may also be long, while loose sheep have straighter follicles that on average are shorter.
+This is not quite what we expected. Those very long follicles in the wrinkly group bear further investigation.
+
+The relationship between length and curvature is complicated. The points occupy the bottom left corner of the plot. Clearly there are other factors involved. 
+
+\clearpage
+\section{Discussion}
+We wanted to show that wrinkled sheep have curved follicles, and we wanted to use something other than a subjective score for follicle curvature. We have achieved that - the radius of curvature differs significantly between loose and wrinkly sheep.
+
+There are also differences in follicle length, regardless of how it is measured. The wrinkled sheep have longer follicles. This begs an explanation. If the presence of collagen in wrinkled sheep interferes with follicle development causing them to grow curved, that is one thing. But how would presence of collagen cause follicles to grow longer? Perhaps the folding of the epidermal and dermal layers which occurs as wrinkles form 'stretches' the follicles. Perhaps the collagen contracts and pulls on the follicles. Perhaps it is not a simple physical effect at all. Perhaps the collagen moves the papilla cells toward which the follicle downgrowth develops, so that the intital infolding of the epidermis and the papilla cells get out of line, causing the follicle to both curve sideways and grow longer in order to reach the papilla cells. We do not know.
+
+So what needs to be done from here? Well we need to sort out whether the length of follicles is at all important in relation to fibre growth. There has been one experiment selecting for follicle depth (Jackson (2017)~\cite{jack:17a}) and it was a failure in relation to improving wool production.  It changed follicle depth and fibre diameter and variance of fibre diameter. The experiment was started when there was a feeling that 'deep' follicles had a better blood supply and a more vigorous wool growth. That sort of thinking has since disappeared. 'Deep' follicles are just long follicles, not anything special. Having an elongted shaft is not going to help a follicle grow more wool.
+
+There also needs to be some consideration as to whether follicle curvature is the same thing as intrinsic fibre curvature, and whether the current commercial curvature measurement technology ( Laserscan or OFDA) measures intrinsic fibre curvature. It comes down to whether follicle curvature is the only factor determining intrinsic fibre curvature, or whether there are other  factors perhaps related to the fibre cross sectional distribution of cortical cell types. Understanding the effect of collagen on follicle curvature is a half-way house. We need to know the effect of collagen on intrinsic fibre curvature, not the 'set' we observe in staple crimp, not some 'set' we measure under Laserscan od OFDA standardised measuring conditions, but the real intrincic curvature which is wahat a fibre can always be relaxed to and which is determined by different growth rates of the ortho and para cortical cells in a fibre with a bilaterally segmented cortex.
+
+That being said, this study has progressed out understanding of why sheep with wrinkle and hard collagen differ from plain bodied sheep in wool growth. They differ because the presence of a layer of hard collagen in the dermis affects the size and shape of wool follicles.
+
+\clearpage
+\begin{thebibliography}{99}
+
+\bibitem{bogo:40}
+ Bogolyubsky S.N. (1940) cited by Fraser A.S and Short B.F. (1960) The Biology of the Fleece. Animal Research Laboratories Technical Paper No 3. CSIRO Melbourne 1960.
+
+
+\bibitem{cart:43}
+Carter H.B. (1943) Studies in the biology of the skin and fleece of sheep. 1. The development and general histology of the follicle group in the skin of the Merino. 2. The use of tanned sheepskin in the study of follicle population density. 3. Notes on the arrangement, nomenclature, and variation of skin folds and wrinkles in the Merino. C.S.I.R. Bulletin No 164, Melbourne, 1943
+
+\bibitem{fras:60}
+Fraser A.S and Short B.F. (1960) The Biology of the Fleece. Animal Research Laboratories Technical Paper No 3. CSIRO Melbourne 1960.
+
+
+\bibitem{jack:17a}
+Jackson, N. (2017) Genetic relationship between skin and wool traits in Merino sheep. Part I Responses to selection and estimates of genetic parameters. URL https://github.com/nevillejackson/Fleece-genetics/tree/master/skinandfleeceparameters/ab3220/skinwool1.pdf
+
+\bibitem{jack:18}
+Jackson, N. and Watts, J.E. (2018) Does follicle development affect the spatial layout of sheep skin? URL https://github.com/nevillejackson/Fleece-biology/tree/master/skinspace/skinspace.pdf
+
+
+\bibitem{jack:17b}
+Jackson, N. and Watts, J.E. (2017) What is known about the genetics of wrinkle score in Merino sheep? URL https://github.com/nevillejackson/Fleece-genetics/wrinkle/wrinkle.pdf
+
+\bibitem{knig:93}
+Knight, K.R., Lepore, D.A., Horne, R.S., Ritz, M., Kumta, S. and O'Brian, B.M. (1993) Collagen content of uninjured skin and scar tissue in foetal and adult sheep. Int. J. Exp. Pathol. 74(6):583-591
+
+\bibitem{madd:88}
+Maddocks, I.G. and Jackson, N. (1988) Structural studies of sheep, cattle, and goat skin. CSIRO, Division of Aimal Production, Sydney.
+
+\bibitem{ment:80}
+Menton, D.N. and Hess, R.A. (1980) The ultrastructure of collagen in the dermis of tight-skin (Tsk) mutant mice. The Journal of Investigative Dermatology 74:139-147
+
+\bibitem{mitc:84}
+Mitchell, T.W. et al (1984) Some physical and mechanical properties of sheep akin with a comparison of "thick" and "thin" skins. Wool Technology and Sheep Breeding, Vol XXXII, No IV, 200-206
+
+
+\bibitem{nay:66}
+Nay, T. (1966) Wool follicle arrangement and vascular pattern in the Australian Merino. Aust. J. Agric. Res. 17:797-805
+
+\bibitem{rprog:13}
+R Core Team (2013). R: A language and environment for statistical
+  computing. R Foundation for Statistical Computing, Vienna, Austria.
+  ISBN 3-900051-07-0, URL http://www.R-project.org/.
+
+
+\bibitem{watt:17}
+Watts, J.E., Jackson, N., and Ferguson, K.A. (2017) Improvements in fleece weight weight and wool quality of Merino sheep selected visually for high fibre density and length. URL https://github.com/nevillejackson/SRS-Merino/Paper\_2\_Revised\_10\_November\_2017.docx 
+
+
+\end{thebibliography}
+\end{document}
