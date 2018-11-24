@@ -40,16 +40,16 @@ On each sheep 25 follicles chosen at random were measured on a vertical skin sec
 The following measurements and scores were available. All measurements were in units of 0.02 mm. 
 \begin{description}
 \item[SkinType] visual scores for sheep skin type. Two grades "loose" and "wrinkly". 
-\item[Follicle depth] perpendicular distance from skin surface to bottom of follicle bulb
-\item[Follicle straight length(t)] distance from skin surface to bottom of follicle bulb, measured at the angle of the follicle to the surface.
+\item[Follicle depth] perpendicular distance from skin surface to bottom of follicle bulb (mm)
+\item[Follicle straight length(t)] distance from skin surface to bottom of follicle bulb, measured at the angle of the follicle to the surface.(mm)
 \item[Follicle sagitta(h)] If the straight follicle length is considered to be the chord of a circle, the sagitta is the height of the arc above the centre of the chord.
 \end{description}
 
 From these measurements it was possible to calculate
 \begin{description}
-\item[Radius of curvature of follicle]  given by $R = h/2 + t^{2}/(8h)$
-\item[Angle subtended by the arc] given by $\theta = 2 asin(2/(2R))$
-\item[Follicle curved length] given by $S = R \theta$
+\item[Radius of curvature of follicle]  given by $R = h/2 + t^{2}/(8h)$ (mm)
+\item[Angle subtended by the arc] given by $\theta = 2 asin(2/(2R))$ (radians)
+\item[Follicle curved length] given by $S = R \theta$ (mm)
 \end{description}
 
 The measurement of fibre curvature used by the wool industry is the reciprocal of radius of curvature and is in degrees per mm. The reciprocal of our $R$ would be in radians per mm.
@@ -62,7 +62,7 @@ Data were imported into the R statistical program~\cite{rprog:13} and analysed u
 \subsection{Means}
 Means for each Skintype within each Flock are given in Table~\ref{tab:means}
 \input{tabmeans.tex}
-All four traits ( Follicle depth, straight follicle lenfgth, curved follicle length, and radius of curvature) would appear to differ substantially between loose and wrinkly Skintypes, but the two Flocks would seem to be similar.
+All four traits ( Follicle depth, straight follicle length, curved follicle length, and radius of curvature) would appear to differ substantially between loose and wrinkly Skintypes, but the two Flocks would seem to be similar.
 
 We do not present standard deviations or standard errors here.  The experimental design has multiple error levels. There are two random effects, Sheep, and Follicles within Sheep. Each of these contributes to the standard error of a mean. We need to estimate variance components for Sheep and Follicles to do the standard errors properly. 
 
