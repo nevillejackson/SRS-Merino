@@ -1,6 +1,6 @@
 # SRS-Merino #
 The _collagen-wrinkle-paper_ subdirectory contains draft writeups of a study of the histology of skin wrinkle in Merino sheep, and in particular the role of amount and type of collagen in wrinkle formation. This work was being actively pursued by Dr J.E. Watts ( and his colleagues Ms Sanaz Maleki ans Mr Jim Gordon) up to the time Dr Watts passing from this world in January 2019. 
-An attempt is being made by Dr Paul Swan and Dr Nevile Jackson to complete this important work, because it has important implications for Merino breeding.
+An attempt is being made by Dr Paul Swan and Dr Nevile Jackson to complete this important work, because it has important implications for Merino breeding. This work is in the _nj-pgs-rewrite_ subdirectory.
 
 
 ## Draft Documents ##
@@ -20,6 +20,9 @@ Sanaz_Collagen_paper_revised_version[1].docx
 
 ## Supplementary material ##
 Additional documents containing supporting analyses and reviews of material can be found in the _../supplementary_ subdirectory.
+
+## Post Watts Rewrite ##
+The nj-pgs-rewrite_ subdirectory contains a complete rewrite of the collagen-wrinkle study with a view to publication of the basic histological observations on skin wrinkles. 
 
 ## What does this project hope to achieve? ##
 An understanding of how  the SRS Merino differs from other strains of Merino, and how these differences were achieved in a breeding program. 
