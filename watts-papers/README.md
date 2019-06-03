@@ -1,8 +1,9 @@
 # SRS-Merino #
-This project is about understanding the SRS Merino sheep breed. The SRS Merino is a new strain of Merino sheep developed over the past 20 years using sheep classing methods established by Dr Jim Watts. The SRS Merino is particularly interesting as an object of research because it differs from all other Merino sheep in a number of important characteristics related to wool quality.
+The _watts-papers_ subdirectory contains papers envisaged by Dr J.E. Watts documenting the development and comparative performance of the SRS Merino breed. 
+Dr Watts sadly passed away in January 2019. The documents in this directory are therefore incomplete.
 
 ## Documents ##
-The following documents are either planned or present as _.docx_ files
+The following documents were either planned or present as _.docx_ files, at the time of Dr Watts passing.
 * Paper_1  - SRS classing standards and photographic standards. 
 * Paper_2  - Responses in fleece weight, fibre diameter and wool quality in flocks using SRS classing.
 * Paper_3  - Fleece structure phenotypes (SRS, semi-SRS, heavy tight, flat skin), and skin characteristics in Merino stud survey (1986-1995).
@@ -11,7 +12,7 @@ The following documents are either planned or present as _.docx_ files
 * Paper_6  - Skin wrinkle.
 
 ## Supplementary material ##
-Additional documents containing supporting analyses and reviews of material can be found in the _supplementary_ subdirectory.
+Additional documents containing supporting analyses and reviews of material can be found in the _../supplementary_ subdirectory.
 
 ## What does this project hope to achieve? ##
 An understanding of how  the SRS Merino differs from other strains of Merino, and how these differences were achieved in a breeding program. 
