@@ -22,7 +22,7 @@ Sanaz_Collagen_paper_revised_version[1].docx
 Additional documents containing supporting analyses and reviews of material can be found in the _../supplementary_ subdirectory.
 
 ## Post Watts Rewrite ##
-The nj-pgs-rewrite_ subdirectory contains a complete rewrite of the collagen-wrinkle study with a view to publication of the basic histological observations on skin wrinkles. 
+The _nj-pgs-rewrite_ subdirectory contains a complete rewrite of the collagen-wrinkle study with a view to publication of the basic histological observations on skin wrinkles. 
 
 ## What does this project hope to achieve? ##
 An understanding of how  the SRS Merino differs from other strains of Merino, and how these differences were achieved in a breeding program. 
