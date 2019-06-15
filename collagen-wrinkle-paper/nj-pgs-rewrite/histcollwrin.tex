@@ -5,6 +5,7 @@
  
 \documentclass[titlepage]{article}  % Latex2e
 \usepackage{graphicx,lscape,subfigure}
+\usepackage{caption,rotating}
 \usepackage{tikz}
 \usepackage{bm,longtable}
 \usepackage{textcomp}
@@ -55,15 +56,102 @@ What is to be investigated in this study is that the amount and type ( and maybe
 Collagen development, secondary follicle development and wrinkle formation  all seem to commence at the same time of around 100 days of foetal age.  Follicle development ceases at around birth ( 150 days) but development of collagen and wrinkles continues into the adult sheep. In this study we look at the end points of development - that is we study collagen and follicles in adult sheep with and without wrinkles. That will not reveal the details of development, but it should make clear any obvious associations between collagen, wrinkles, and follicles.
 
 \section{Materials and Methods}
-\subsection{Sheep studied}
+The experimental design was to choose, by visual inspection, individual sheep with wrinkle-free skin and wrinkly skin from each of a number of Australian Merino flocks. The flocks available for this study were mostly flocks which were undergoing breeding towards the SRS \textsuperscript{TM} Merino type. Consequently most of the sheep chosen as examples of wrinkle-free sheep would have the loose and supple skin which is characteristic of SRS \textsuperscript{TM} Merinos. There is another sort of wrinkle-free sheep which has low follicle density and tight skin and this type is probably not well represented in the present study.
 
-\subsection{Measurements}
+Two trials were conducted
+\begin{description}
+\item[Trial 1]  Two sheep were chosen from each of five Merino flocks, one wrinkle-free and one wrinkles. This is a randomized block design without replication .  The blocks are the five flocks, and the treatment is the presence or absence of wrinkle.
+\item[Trial 2]  Eighteen sheep were chosen from each of two flocks, nine wrinkle-free and nine with wrinkles. This is a randomised block design with replication. The second of these two flocks was more wrinkled and was not breeding towards the SRS \textsuperscript{TM} Merino type.
+\end{description} 
+\subsection{Skin samples}
+In Trial 1 a biopsy sample was taken from the midside position on each sheep and the specimens were trimmed in the normal manner before processing, so that only Layer 1 (epidermis) and Layer 2 (papillary dermis) were present for histological observation.
 
-\subsection{Interpretation of measurements}
+In Trial 2 , for the sheep with wrinkly skins, skin biopsies were collected from on the wrinkles as well as between the wrinkles. For the wrinkle-free sheep only one biopsy sample was collected. These specimens included Layers 1 to 4, ie only the adipose tissue was trimmed.
+
+Midside skin samples were collected using a 10 millimetre
+circular trephine (Acu Punch® skin biopsy punches, Acuderm, Inc.) and
+fixed in 10\% formol saline solution. 
+
+\subsection{Macroscopic skin observations}
+
+Skin samples were washed in several changes of water, the wool
+stubble trimmed and then examined under a magnifying lamp ( x 3
+magnification).  Scores for  suppleness (1 = hardened to 5 = supple)
+of the papillary layer and reticular layer  were made.  Each skin
+sample was examined to determine if layers 2 and 3, and layers 3 and 4,
+were free or fixed and whether localized hardening and folding of the
+skin had occurred.
+
+The thicknesses of the papillary dermis and
+the reticular dermis were measured using a ruler graduated in one
+millimetre divisions. A Mitutoyo ballpoint gauge
+(model no. 2046S) was then used to measure the compressed thickness at
+four sites for each skin sample.
+
+\subsection{Histological skin processing and observations}
+\subsubsection{Collagen observations}
+
+Skin samples used for haematoxylin and eosin staining (H-E) and
+picrosirius red (PSR),were fixed in 10\% neutral buffered formalin for
+24 hours before being processed to wax in an automated tissue
+processing platform (Shandon Excelsior, Thermo Scientific, USA), and
+then embedded in paraffin wax. Four micron sections were cut and placed
+onto slides for H-E staining for tissue morphology. Serial section was
+also employed on a separate slide for PSR staining to highlight
+collagen content. Staining was performed manually.
+
+Sections were then reviewed microscopically (BX53 Olympus, Australia)),
+and images taken on 3 CCD camera (DP72, Olympus, Australia) under both
+bright field and polarized conditions for PSR staining.
+
+For PSR collagen analysis, the 40x objective was employed at a fixed
+exposure to take high power images of 5 random deep dermal fields of
+view for computational analysis. 
+
+The images for each sample were then uploaded for quantitative analysis
+via the ImagePro Plus (Media Cybernetics, USA) 7.1 software in which
+thresholds were set to count all pixels comprising of the red staining
+fibres in the PSR stained specimen against the total pixels. A mean was
+calculated for each of the specimens{\textquoteright} 5 images and
+graphed.
+
+Polarised light was employed in order to try and determine the type of
+collagen present within each of the samples.
+
+\subsubsection{Vertical skin sections}
+Vertical skin sections, approximately 0.3 millimetres wide, were cut
+freehand with a sharp razor blade on a freezing stage and stained with
+0.25 \% Nile blue sulphate, as described by Nay (1973).
+The sections were cut parallel with the angle of
+emergence of the fibres to avoid cutting through follicles. Mean
+follicle curvature was scored from 1 = straight follicles to 7 =
+tangled follicles by reference to a set of standard drawings used by
+Nay and Johnson (1973). Follicle depth was measured
+as both the perpendicular and angular distances (in millimetres)
+between the skin surface and the lower ends of the follicle bulbs,
+along with follicle bending, as described by Maddocks and Jackson
+(1988).
+
+
+\subsubsection{Horizontal skin sections}
+Horizontal skin sections were also prepared as described by
+Maddocks and Jackson (1988) using the frozen section technique and
+measurement procedures of Nay (1973). The sections were used to measure
+follicle density, secondary follicle to primary follicle ratio (S/P
+ratio), primary fibre diameter and secondary fibre diameter of the
+sheep.
+
+JW to describe measurement of orientation of follicle groups
+and measurements made of collagen sheets in subfollicular layer of
+papillary dermis.
+
+
+\subsection{Summary of measurements}
 
 
 \subsection{Statistical Methods}
-Data were imported into the R statistical program~\cite{rprog:13} and analysed using the {\em lm()} function for regressions, and the {\em aov()} function for analysis of variance.
+
+Data were imported into the R statistical program~\cite{rprog:13} and analysed using the {\em aov()} function for analysis of variance.
 
 \section{Results}
 
