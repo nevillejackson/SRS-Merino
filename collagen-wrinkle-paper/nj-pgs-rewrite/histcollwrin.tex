@@ -211,7 +211,9 @@ Although the Trial 2 biopsy samples were not trimmed before sectioning, the spec
 \begin{verbatim}
 Sanaz, do you know why these sections have Layer 4 trimmed ? 
 They are from Trial 2, and should be untrimmed.
-The only images of untrimmed samples that I could find were the two below which came to me from Jim by email. There are none in his computer files which Sally retrieved for me?
+The only images of untrimmed samples that I could find were the two below
+ which came to me from Jim by email. There are none in his computer files
+ which Sally retrieved for me?
 \end{verbatim}
 
   We can check on this by looking at a specimen , which was not trimmed before sectioning. Figure~\ref{fig:trial2he} shows one example section which is from a wrinkled sheep from Flock 1 of Trial 2.
@@ -235,14 +237,17 @@ To quantify the amount of collagen in Layer 3, 5 fields under a 40x objective we
 \input{figpsr40x.tex}
 The two fields shown in Figure~\ref{fig:psr40x} were chosen to be typical of the difference between wrinkled and wrinkle-free sheep. They show that the collagen in Layer 3 of wrinkled sheep is in larger aggregates and suggest that there is more collagen present ( as evidenced by more red stained areas) in wrinkled sheep. We set out to confirm this with some quantitative data.
 
- The image analysis procedure described in the methods was used to count red stained pixels in each field. The mean red pixel count for each sheep is shown  in Figure~\ref{fig:redpixt1} for Trial 1 and Figure~\ref{fig:redpixt2} for Trial 2.
+ The image analysis procedure described in the methods was used to assess the amount of red stained pixels in each field.  What was actually calculated was the sum of the calibrated optical densities of all the pixels in the red image. The mean red pixel optical density sum for each sheep is shown  in Figure~\ref{fig:redpixt1} for Trial 1 and Figure~\ref{fig:redpixt2} for Trial 2.
 %\input{figredpixt1.tex}
 %\input{figredpixt2.tex}
-Pixel counts are expressed as a percentage of the total number of pixels in the image taken with a 40x objective.
+The total number of pixels in an image taken with a 40x objective was 1920000, so one could scale these optical density sums to the average optical density of a pixel by dividing by 1920000.
 
-The significance of the differences apparent in Figure~\ref{fig:redpixt1} was tested by analysis of variance extracting terms for FlockNo, SkinType, and their interaction, as shown in Figure~\ref{tab:redpixelt1aov}.
+The significance of the differences apparent in Figure~\ref{fig:redpixt1} was tested by analysis of variance extracting terms for FlockNo, SkinType, and their interaction, as shown in Table~\ref{tab:redpixelt1aov}.
 \input{tabredpixelt1aov.tex}
 The residual term in Figure~\ref{tab:redpixelt1aov} is the variation between randomly chosen Fields within a specimen. The difference between the wrinkled and wrinkle-free SkinTypes is shown to be highly significant.
+
+The equivalent analysis of variance for Trial 2 (Figure~\ref{fig:redpixt2}) data is shown in Table~\ref{tab:redpixelt2aov}.
+\input{tabredpixelt2aov.tex}
 
 \begin{verbatim}
 There are some questions hanging over these data.
@@ -257,7 +262,9 @@ Sanaz, can you please find out exactly what the data are?
 
 \subsubsection{Type of collagen}
 
-\subsection{Follicle curvature}
+\subsection{Follicle characteristics}
+A number of follicle attributes seem to differ between wrinkled and wrinkle-free sheep. These are documented below
+
 \subsubsection{Follicle curvature scores}
 Follicle curvature scores were available for Trial 1. The scores for each sheep are shown on Table~\ref{tab:curv}
 \input{tabcurv.tex}
@@ -268,8 +275,21 @@ An analysis of variance of these scores is given in Table~\ref{tab:curvaov}
 This shows that the difference between wrinkle-free and wrinkled sheep was significant at the 1 percent level.
 
 \subsubsection{Follicle curvature measurements}
+Follicle curvaturemeasurements were made for Trial 2. There is a document detailing measurement methods and their statistical analysis available in Watts and Jackson (2018)~\cite{watt:18}. 
 
-\subsection{Follicle density and S/P ratio}
+Here we present only a summary of the results. Table~\ref{tab:curvmeasmeans} shows means for follicle depth, straight length of the follicle, curved length of the follicle and radius of curvature. 
+\input{tabcurvmeasmeans.tex}
+All four measurements differed between wrinkled and wrinkle-free sheep,and the differencess were significant for all four traits.
+
+\subsubsection{Follicle density and S/P ratio}
+
+\subsubsection{Follicular degeneration}
+Dr Watts saw evidence of follicle degeneration in wrinkled sheep. His statement was
+\begin{quote}
+"  I am happy that there is not only follicular distortion caused by collagen but also follicular degeration.  I can see evidence of bent follicle bulbs right at the tip of where the follicles are curving more or less at right angles.  I can also see in these affected sheep, the wrinkly skinned ones, that the follicle bulb cells are becoming vacuolated ie. undergoing cellular degeneration. The fibre defects we are encountering appear to be the consequence of this follicle degeneration."
+\end{quote}
+
+There are no measurements to support this statement. The fibre defects referred to are fibre naps. 
 
 \clearpage
 \section{Discussion}
@@ -363,6 +383,9 @@ Turner, H.N., Dolling, C.H.S., and Kennedy, J.F. (1968) Response to selection in
 
 \bibitem{turn:70}
 Turner, Helen Newton, Brooker M.G. and Dolling, C.H.S (1970) Response to selection in Australian Merino sheep. III Single character selection for high and low values of wool weight and its components. Aust.J.Agric.Res. 21:955-84
+
+\bibitem{watt:18}
+Watts, J.E., Jackson, N. (2018) Follicle depth, straight length, and curved length in plain and wrinkly sheep. URL https://github.com/nevillejackson/SRS-Merino/blob/master/supplementary/depthandcurv/depthandcurv.pdf
 
 \bibitem{watt:17}
 Watts, J.E., Jackson, N., and Ferguson, K.A. (2017) Improvements in fleece weight weight and wool quality of Merino sheep selected visually for high fibre density and length. URL https://github.com/nevillejackson/SRS-Merino/Paper\_2\_Revised\_10\_November\_2017.docx 
