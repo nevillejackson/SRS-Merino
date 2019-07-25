@@ -4,15 +4,18 @@
 \centering
 \caption{Analysis of variance of red pixel optical density sums for Trial 1}
 \label{tab:redpixelt1aov}
-\begin{tabular}{lrrrrr}
+\begin{tabular}{lrrrr}
   \hline
- & Df & Sum Sq & Mean Sq & F value & Pr($>$F) \\ 
+ Source & Df &  Mean Square & F value & Significance \\ 
   \hline
-FlockNo          & 5 & 171331377632.98 & 34266275526.60 & 21.83 & 0.0000 \\ 
-  SkinType         & 1 & 259320673232.61 & 259320673232.61 & 165.24 & 0.0000 \\ 
-  FlockNo:SkinType & 5 & 101494297974.87 & 20298859594.97 & 12.93 & 0.0000 \\ 
-  Residuals        & 48 & 75331333124.76 & 1569402773.43 &  &  \\ 
+FlockNo          & 5 &  34266275526.60 & 1.688 & NS \\ 
+  SkinType         & 1 & 259320673232.61 & 12.775 & * \\ 
+  FlockNo:SkinType & 5 & 20298859594.97 & 12.934 & *** \\ 
+  Residuals        & 48 & 1569402773.43 &  &  \\ 
    \hline
 \end{tabular}
+\begin{tabbing}
+  Signif. codes: ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05  \\
+\end{tabbing}
 \end{table}
 

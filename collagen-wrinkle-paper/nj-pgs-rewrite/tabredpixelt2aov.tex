@@ -6,17 +6,20 @@
 \caption{Analysis of variance of red pixel optical density sums for Trial 2}
 \label{tab:redpixelt2aov}
 
-\begin{tabular}{lrrrrr}
+\begin{tabular}{lrrrr}
   \hline
- & Df & Sum Sq & Mean Sq & F value & Pr($>$F) \\ 
+ Source & Df & Mean Square & F value & Significance \\ 
   \hline
-FlockNo                  & 1 & 91548864255.47 & 91548864255.47 & 37.41 & 0.0000 \\ 
-  SkinType                 & 1 & 412338258758.73 & 412338258758.73 & 168.48 & 0.0000 \\ 
-  SampPos                  & 1 & 50325174039.48 & 50325174039.48 & 20.56 & 0.0000 \\ 
-  FlockNo:SkinType         & 1 & 101676878442.96 & 101676878442.96 & 41.55 & 0.0000 \\ 
-  FlockNo:SkinType:SheepNo & 49 & 1081769314333.64 & 22076924782.32 & 9.02 & 0.0000 \\ 
-  Residuals                & 218 & 533522617623.69 & 2447351456.99 &  &  \\ 
+FlockNo                  & 1 &  91548864255.47 & 4.14 & NS \\ 
+  SkinType                 & 1 & 412338258758.73 & 18.67 & *** \\ 
+  SampPos                  & 1 & 50325174039.48 & 2.28 & NS \\ 
+  FlockNo:SkinType         & 1 & 101676878442.96 & 4.60 & * \\ 
+  FlockNo:SkinType:SheepNo & 49 & 22076924782.32 & 9.02 & *** \\ 
+  Residuals                & 218 & 2447351456.99 &  &  \\ 
    \hline
 \end{tabular}
+\begin{tabbing}
+  Signif. codes: ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05  \\
+\end{tabbing}
 \end{table}
 
