@@ -60,7 +60,7 @@ The experimental design was to choose, by visual inspection, individual sheep wi
 
 Two trials were conducted
 \begin{description}
-\item[Trial 1]  Two sheep were chosen from each of five Merino flocks, one wrinkle-free and one wrinkles. This is a randomized block design without replication .  The blocks are the five flocks, and the treatment is the presence or absence of wrinkle.
+\item[Trial 1]  Two sheep were chosen from each of six Merino flocks, one wrinkle-free and one wrinkles. This is a randomized block design without replication .  The blocks are the five flocks, and the treatment is the presence or absence of wrinkle.
 \item[Trial 2]  Eighteen sheep were chosen from each of two flocks, nine wrinkle-free and nine with wrinkles. This is a randomised block design with replication. The second of these two flocks was more wrinkled and was not breeding towards the SRS \textsuperscript{TM} Merino type.
 \end{description} 
 \subsection{Skin samples}
@@ -238,9 +238,11 @@ To quantify the amount of collagen in Layer 3, 5 fields under a 40x objective we
 The two fields shown in Figure~\ref{fig:psr40x} were chosen to be typical of the difference between wrinkled and wrinkle-free sheep. They show that the collagen in Layer 3 of wrinkled sheep is in larger aggregates and suggest that there is more collagen present ( as evidenced by more red stained areas) in wrinkled sheep. We set out to confirm this with some quantitative data.
 
  The image analysis procedure described in the methods was used to assess the total amount of red stained pixels in each field.  What was actually calculated was the sum of the calibrated optical densities of all the pixels in the red image. The integrated (ie summed over all pixels) red pixel optical density for each sheep is shown  in Figure~\ref{fig:redpixt1} for Trial 1 and Figure~\ref{fig:redpixt2} for Trial 2.
-%\input{figredpixt1.tex}
+\input{figredpixt1.tex}
 %\input{figredpixt2.tex}
-The total number of pixels in an image taken with a 40x objective was 1920000, so one could scale these optical density sums to the average optical density of a pixel by dividing by 1920000.
+These data are intended as a measure of the total amount of collagen tissue present in the microscope section at the position of the chosen field in the lower dermis.
+The total number of pixels in an image taken with a 40x objective was 1920000, so one could scale these optical density sums to the average optical density of a pixel by dividing by 1920000. We chose not to do this scaling.
+We can see that for Trial 1 the wrinkle-free sheep always had less collagen, except for those in Flock 4. In Trial 2  the wrinkle-free sheep always had less collagen than the between-wrinkle sample from the wrinkled sheep, but the on-wrinkle sample was more variable.
 
 The significance of the differences apparent in Figure~\ref{fig:redpixt1} was tested by analysis of variance extracting terms for FlockNo, SkinType, and their interaction, as shown in Table~\ref{tab:redpixelt1aov}.
 \input{tabredpixelt1aov.tex}
@@ -262,12 +264,17 @@ The Trial 2 sheep are the opposite. These were from commercial flocks, and here 
 
 The standard deviations were greater for wrinkled sheep, and greater for on-wrinkle than between-wrinkle specimens. Apparently wrinkled skins are more variable, at least in their collagen density. We did not test whether these differences in standard deviation were significant.
 
+The data show that there is more collagen in the lower dermis of wrinkled sheep than wrinkle-free sheep.  The actual size of the difference varied from 2.5 x in Trial 1 to 1.4 x in Trial 2. 
+Within wrinkled sheep there was no difference in amount of collagen between samples taken on a wrinkle or between wrinkles.
+
 
 \begin{verbatim}
 There are some questions hanging over these data.
-The data can not be pixel counts, because they are not integers. 
-They must be something like counts weighted by the intensity of redness
- of each pixel, or something similar.
+The data seem to be pixel greyvalues converted to optical density,
+ then summed ( ie integrated) over all the pixels in the image. 
+The image used was probably the red component image.
+Maybe a threshold greyvalue was applied to accept only pixels exceeding a certain degree of redness.
+
 Sanaz, can you please find out exactly what the data are?
 \end{verbatim}
 
