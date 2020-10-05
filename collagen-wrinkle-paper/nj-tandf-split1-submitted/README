@@ -1,0 +1,9 @@
+1. The main .tex file is collwrin.tex
+2. Every figure and table has a separate .tex file
+3. I have not attempted to size and place figures. There are 2 figure sizes; the larger size indicates figures which I think may require more than 0.5/textwidth to show sufficient detail,  the smaller size I have put 2 across the page. 
+   This is just an indication. The editors may do something else.
+4. I did not know where to place the Data availability statement, so I put it in the manuscript just before the bibliography. 
+5. I will activate the DOI if/when manuscript is accepted.
+6. To remove line numbers from the .pdf file , comment out the line
+\linenumbers 
+in collwrin.tex and rerun pdflatex.

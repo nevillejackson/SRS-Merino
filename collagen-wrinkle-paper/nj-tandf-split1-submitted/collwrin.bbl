@@ -1,0 +1,114 @@
+\begin{thebibliography}{23}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\normalfont{#1}}
+\providecommand{\urlprefix}{Available from: }
+
+\bibitem[Bogolyubsky(1940)]{bogolyubsky-1940}
+Bogolyubsky~SN. 1940. On the pre-natal development of wrinkles on the skin of
+  sheep. CR Acad Sci URSS. 27(8):879--882. Cited by Fraser A.S. and Short B.F.
+  1960.
+
+\bibitem[Carter(1943)]{carter-1943}
+Carter~HB. 1943. Studies in the biology of the skin and fleece of sheep. 1.
+  {The} development and general histology of the follicle group in the skin of
+  the {Merino}. 2. {The} use of tanned sheepskin in the study of follicle
+  population density. 3 {Notes} on the arrangement, nomenclature, and variation
+  of skin folds and wrinkles in the {Merino}. {C.S.I.R. Melbourne}. C.S.I.R.
+  Bulletin 164.
+
+\bibitem[Cuttle et~al.(2005)]{cuttle-2005}
+Cuttle~L, Nataatmadja~M, Fraser~J, Kempf~M, Kimble~RM, Hayes~MT. 2005. Collagen
+  in the scarless fetal skin wound: Detection with picrosirius-polarization.
+  Wound Rep Reg. 13:198--204.
+
+\bibitem[Diab et~al.(2013)]{diab-2013}
+Diab~M, Zhang~T, Ruike~Z, Gao~H, Kim~K. 2013. Ruga mechanics of creasing: from
+  instantaneous to setback creases. Proc Royal Soc A. 469(2157):1--17.
+  \urlprefix\url{doi:10.1098/rspa.2012.0753}.
+
+\bibitem[Fraser and Short(1960)]{fraser-1960}
+Fraser~AS, Short~BF. 1960. The {Biology} of the {Fleece}. {C.S.I.R.O.
+  Melbourne}. Animal Research Laboratories Technical Paper~3.
+
+\bibitem[Hatcher et~al.(2012)]{hatcher-2012}
+Hatcher~S, Atkins~KD, Thornberry~KJ. 2012. Breeding plain-bodied fine wools -
+  no problem! Proc Assoc Advmt Anim Breed Genet. 18:330--333.
+
+\bibitem[Jackson and Watts(2018)]{jackson-2018}
+Jackson~N, Watts~JE. 2018. Quantitative genetics of skin wrinkle in sheep.
+  Unpublished manuscript;
+  \urlprefix\url{https://github.com/nevillejackson/Fleece-genetics/blob/master/qgwrinkle/qgwrinkle.pdf}.
+
+\bibitem[Junqueira et~al.(1979)]{junqueira-1979}
+Junqueira~LCU, Bignolas~G, Brentani~RR. 1979. Picrosirius staining plus
+  polarization microscopy, a specific method for collagen detection in tissue
+  sections. Histochem J. 11:447--455.
+
+\bibitem[Kirk(1968)]{kirk-1968}
+Kirk~EJ. 1968. The dermatimes of sheep. J Comp Neur. 134(3):353--370.
+  \urlprefix\url{https://doi.org/10.1002/cne.901340308}.
+
+\bibitem[Knight et~al.(1993)]{knight-1993}
+Knight~KR, Lepore~DA, Horne~RS, Ritz~M, Kumta~S, O'Brian~BM. 1993. Collagen
+  content of uninjured skin and scar tissue in foetal and adult sheep. Int J
+  Exp Pathol. 74(6):583--591.
+
+\bibitem[Kozslowski(1966)]{kozlowski-1966}
+Kozslowski~GP. 1966. The microscopic anatomy of the integument of sheep
+  [master's thesis]. Michigan State University.
+
+\bibitem[Lattouf et~al.(2014)]{lattouf-2014}
+Lattouf~R, Younes~P, Lutomski~D, Naaman~N, Godeau~G, Senni~K, Changotade~S.
+  2014. Picrosirius red staining: a useful tool to appraise collagen networks
+  in normal and pathological tissues. J Histochem Cytochem. 62(10):751--758.
+
+\bibitem[Lyne and Hollis(1968)]{lyne-1968}
+Lyne~AG, Hollis~DE. 1968. The skin of sheep: A comparison of body regions. Aust
+  J agric Res. 22:499--527.
+
+\bibitem[Maddocks and Jackson(1988)]{maddocks-1988}
+Maddocks~IG, Jackson~N. 1988. {Structural Studies of Sheep, Cattle, and Goat
+  Skin}. CSIRO Division of Animal Production, Sydney: CSIRO.
+
+\bibitem[Mitchell et~al.(1984)]{mitchell-1984}
+Mitchell~TW, Nieass~A, Rigby~BJ, Snaith~JW. 1984. Some physical and mechanical
+  properties of sheep skin with a comparison of "thick" and "thin" skins. Wool
+  Technology and Sheep Breeding. 32(74):200--206.
+
+\bibitem[Moore et~al.(1996)]{moore-1996}
+Moore~GPM, Jackson~N, Isaacs~K, Brown~G. 1996. Development and density of wool
+  follicles in {Merino} sheep selected for single fibre characteristics. Aust J
+  agric Res. 47:1195--1201.
+
+\bibitem[Moore et~al.(1989)]{moore-1989}
+Moore~GPM, Jackson~N, Lax~J. 1989. Evidence of a unique developmental mechanism
+  specifying both wool follicle density and fibre size in sheep selected for
+  single skin and fleece characters. Genet Res Camb. 53(57-62):57--62.
+
+\bibitem[R Core Team(2017)]{rcoreteam-2017}
+R Core Team. 2017. R: A language and environment for statistical computing.
+  \urlprefix\url{http://www.R-project.org/}.
+
+\bibitem[Ryder and Stevenson(1968)]{ryder-1968}
+Ryder~ML, Stevenson~SK. 1968. {Wool Growth}. London: Academic Press.
+
+\bibitem[Scobie et~al.(2005)]{scobie-2005a}
+Scobie~DR, Young~SR, O'Connell~D, Eythorsdottir~E. 2005. Skin wrinkles of the
+  sire adversely affect merino and halfbred pelt characteristics and other
+  production traits. Aust J Exptl Agric. 45:1551--1557.
+
+\bibitem[Seddon et~al.(1931)]{seddon-1931}
+Seddon~HR, Belschner~HG, Mulhearn~CR. 1931. Studies on cutaneous myiasis of
+  sheep. New South Walse Department of Agriculture. Science Bulletin~37.
+
+\bibitem[Thompson(1917)]{thompson-1917}
+Thompson~D. 1917. {Growth and Form}. Cambridge, England: Cambridge University
+  Press.
+
+\bibitem[Turner et~al.(1968)]{turner-1968}
+Turner~HN, Dolling~CHS, Kennedy~JF. 1968. Response to selection in {Australian
+  Merino} sheep. {I. Selection} for high clean wool weight with a ceiling on
+  fibre diameter and degree of wrinkle. {Response} in wool and body
+  characteristics. Aust J agric Res. 19:79--112.
+
+\end{thebibliography}

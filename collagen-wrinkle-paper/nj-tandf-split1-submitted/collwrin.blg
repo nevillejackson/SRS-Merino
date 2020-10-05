@@ -1,0 +1,47 @@
+This is BibTeX, Version 0.99d (TeX Live 2015/dev/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: collwrin.aux
+The style file: tfcse.bst
+Database file #1: collwrin.bib
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+You've used 23 entries,
+            3587 wiz_defined-function locations,
+            1320 strings with 14413 characters,
+and the built_in function-call counts, 26082 in all, are:
+= -- 2999
+> -- 535
+< -- 3
++ -- 307
+- -- 172
+* -- 1711
+:= -- 3011
+add.period$ -- 112
+call.type$ -- 23
+change.case$ -- 184
+chr.to.int$ -- 24
+cite$ -- 23
+duplicate$ -- 2744
+empty$ -- 1946
+format.name$ -- 205
+if$ -- 5493
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 233
+newline$ -- 75
+num.names$ -- 66
+pop$ -- 1442
+preamble$ -- 1
+purify$ -- 159
+quote$ -- 0
+skip$ -- 363
+stack$ -- 0
+substring$ -- 3241
+swap$ -- 456
+text.length$ -- 3
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 132
+warning$ -- 0
+while$ -- 160
+width$ -- 0
+write$ -- 257
