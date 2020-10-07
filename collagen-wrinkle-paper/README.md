@@ -29,7 +29,6 @@ An understanding of how  the SRS Merino differs from other strains of Merino, an
 In particular the wrinkle histology study aims to achieve an understanding of what a skin wrinkle actually is from an histological and developmental point of view. 
 
 ## Reference ##
-A description of the SRS Merino breed can be found at the website.
-http://www.srsmerino.com.au
-The Facebook site is  https://www.facebook.com/srsmerino.com.au/
+A description of the SRS Merino breed can be found at the facebook site 
+https://www.facebook.com/srsmerino.com.au/
 
