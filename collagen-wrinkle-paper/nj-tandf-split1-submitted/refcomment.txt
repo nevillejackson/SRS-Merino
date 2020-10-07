@@ -20,20 +20,50 @@ Referee Comments:
 Referee: 1
 
 Comments to the Author
-The reason given for the research is a stretch - sheep breeding for fewer wrinkles can be (and is) carried out without this type of information.  The methodology used is not suitable - a reference (or experimental verification carried out by yourself if it is a novel technique) of the collagen quantification technique using Sirius Red should have been provided.  Immunohistochemistry is a much more suitable technique for differentiating collagen Types 1 and 3 in sections than birefringence, and is readily available.  The conclusions drawn do not have sufficient evidence to back them up, or the connection between the evidence and the conclusion is not explained sufficiently clearly.  Introducing the new material in the Discussion (genetics) seems an odd thing to do.  You did not mention having received permission from an ethics committee to do this research on live sheep, or that you used analgesia when sampling.
+The reason given for the research is a stretch - sheep breeding for fewer
+ wrinkles can be (and is) carried out without this type of information. 
+ The methodology used is not suitable - a reference (or experimental
+ verification carried out by yourself if it is a novel technique) of the
+ collagen quantification technique using Sirius Red should have been provided.
+  Immunohistochemistry is a much more suitable technique for differentiating 
+collagen Types 1 and 3 in sections than birefringence, and is readily available.
+  The conclusions drawn do not have sufficient evidence to back them up, or the
+ connection between the evidence and the conclusion is not explained
+ sufficiently clearly.  Introducing the new material in the Discussion
+ (genetics) seems an odd thing to do.  You did not mention having received 
+permission from an ethics committee to do this research on live sheep, or that
+ you used analgesia when sampling.
 
 Referee: 2
 
 Comments to the Author
 Major issues:
-1) Biopsy collection not described - no details regarding age at collection, local anesthesia, incision closing, animal ethics approval
+1) Biopsy collection not described - no details regarding age at collection,
+ local anesthesia, incision closing, animal ethics approval
 
-2) Statistical analyses not appropriate - it appears that the five replications (microscopic fields) in each animal were used individually in the analyses. That’s is incorrect – those should have been averaged per animal and a single value for each animal used in the analysis. If individual observations (the five replicates in each animal) were to be used, a mixed model analysis that could account for correlation between repeated measures (within an animal) would be more meaningful. Also, there was no mention of check for normality of data. 
+2) Statistical analyses not appropriate - it appears that the five replications
+ (microscopic fields) in each animal were used individually in the analyses. 
+That’s is incorrect – those should have been averaged per animal and a single 
+value for each animal used in the analysis. If individual observations
+ (the five replicates in each animal) were to be used, a mixed model analysis
+ that could account for correlation between repeated measures (within an animal)
+ would be more meaningful. Also, there was no mention of check for normality of
+ data. 
 
-3) Proposed hypotheses and 'validation' - based on the observed differences in the amount and type of collagen in wrinkled and wrinkle-free sheep, two hypotheses were proposed. Based on reference to partitioning of variance pertaining to wrinkle score, the authors claim that the hypotheses have been verified. This seems illogical. Also, it has been claimed, "This study shows that it is possible to have extra skin surface area without having wrinkle, provided the presence of hard collagen is avoided". This is not true since it had not been shown in the study that skin surface area are similar in winkled and wrinkle-free sheep. 
+3) Proposed hypotheses and 'validation' - based on the observed differences in 
+the amount and type of collagen in wrinkled and wrinkle-free sheep, two
+ hypotheses were proposed. Based on reference to partitioning of variance
+ pertaining to wrinkle score, the authors claim that the hypotheses have been
+ verified. This seems illogical. Also, it has been claimed, "This study shows
+ that it is possible to have extra skin surface area without having wrinkle,
+ provided the presence of hard collagen is avoided". This is not true since it
+ had not been shown in the study that skin surface area are similar in winkled
+ and wrinkle-free sheep. 
 
 Minor issues:
-The manuscript, in patches,  is poorly written - inconsistent usage of past and present tense and a few typos. Also, the provided web-links for a cited unpublished reference and supplementary material have been inaccessible. 
+The manuscript, in patches,  is poorly written - inconsistent usage of past and
+ present tense and a few typos. Also, the provided web-links for a cited
+ unpublished reference and supplementary material have been inaccessible. 
 
 These have been indicated as track changes in the attached word document.    
      
@@ -42,11 +72,18 @@ These have been indicated as track changes in the attached word document.
 Referee: 3
 
 Comments to the Author
-The following is list of comments or corrections on the manuscript NZIA 2020-0158:
-Line#10-17: expand the abstract to cover the major theme of the research, result and conclusion. such as to state there were three type of collagen existed in Merino skin while type I or III are more associated with skin wrinkles; also need to include what recommendations for breeding low wrinkle Merinos. …
-Line #: 34-41 and main text, Layer 1, 2, 3, 4, 5 etc should be in consistent format;
+The following is list of comments or corrections on the manuscript 
+NZIA 2020-0158:
+Line#10-17: expand the abstract to cover the major theme of the research,
+ result and conclusion. such as to state there were three type of collagen
+ existed in Merino skin while type I or III are more associated with skin
+ wrinkles; also need to include what recommendations for breeding low wrinkle
+ Merinos. …
+Line #: 34-41 and main text, Layer 1, 2, 3, 4, 5 etc should be in consistent
+ format;
 Line #: 57 and else where, delete (…, see);
 Line # 83 and else where, check the space and comma; … # 134, #141 red, orange
+
 Line # 89 ...conducted:
 Line # 116: delete an extra )
 Line # 150 Statistical methods
@@ -62,12 +99,17 @@ Line # 375: clarify 'We are not sure,
 Line # 384: However, it is not known
 Line # 410: delete [This … checked]
 Line # 421: … to present but the conclusion is 
-Line # 423-424: These conclusions has confirmed or supported the proposed two factor hypothesis?
+Line # 423-424: These conclusions has confirmed or supported the proposed two
+ factor hypothesis?
 Line # 440: … and biological consequences.
 Line # 447: has met at times
 Line 458 - 461: clarify this confusing suggestion?
-Line # 474 - 476: clarify this conclusion, and also contrast with the statement in line 458-461?
+Line # 474 - 476: clarify this conclusion, and also contrast with the statement
+ in line 458-461?
 Tables: need to check and conform with the journal styles and formats;
-Figure 6 & 7: need to check or conform with journal style, font/color and format (ie, if it publish figures in colors); and same suggestion for Figure 12
+Figure 6 & 7: need to check or conform with journal style, font/color and
+ format (ie, if it publish figures in colors); and same suggestion for
+ Figure 12
 Figure 9: Need to enhance the contrasting features? And explain how it differs
+
 References: Need to check and verify for citation and citing format of journal.
