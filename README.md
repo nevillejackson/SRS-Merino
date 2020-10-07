@@ -17,7 +17,6 @@ Additional documents containing supporting analyses and reviews of material can 
 An understanding of how  the SRS Merino differs from other strains of Merino, and how these differences were achieved in a breeding program. 
 
 ## Reference ##
-A description of the SRS Merino breed can be found at the website.
-http://www.srsmerino.com.au
-The Facebook site is  https://www.facebook.com/srsmerino.com.au/
+A description of the SRS Merino breed can be found at the facebook site 
+https://www.facebook.com/srsmerino.com.au/
 
