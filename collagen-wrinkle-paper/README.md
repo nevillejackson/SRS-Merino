@@ -21,8 +21,9 @@ Sanaz_Collagen_paper_revised_version[1].docx
 ## Supplementary material ##
 Additional documents containing supporting analyses and reviews of material can be found in the _../supplementary_ subdirectory.
 
-## Post Watts Rewrite ##
+## Post Watts Rewrites ##
 The _nj-pgs-rewrite_ subdirectory contains a complete rewrite of the collagen-wrinkle study with a view to publication of the basic histological observations on skin wrinkles. 
+The _nj-tandf-split1-submitted_ subdirectory contains a rewrite formatted for submission to N. Z. J. Agric. Res.. This rewrite contains collagen data only ( no other measurements). This manuscript weas rejected. The referees comments are in file _refcomment.txt_, and on the manuscript file _NZJA-2020-0158_Proof_hi.pdf_.
 
 ## What does this project hope to achieve? ##
 An understanding of how  the SRS Merino differs from other strains of Merino, and how these differences were achieved in a breeding program. 
